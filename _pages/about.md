@@ -2,23 +2,30 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: # Hi! I'm a PhD student in Computer Science, at the <a href="#">University of Michigan, Ann Arbor</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm a first year Computer Science PhD student at the [University of Michigan, Ann Arbor](https://cse.engin.umich.edu/), advised by [Prof. Mahdi Cheraghchi](https://mahdi.ch/). I am mostly interested in topics in theoretical computer science. Specifically, I'm interested in computational complexity, coding theory, and the analysis of Boolean functions.
+
+Previously, I completed a masters at [IIT Kanpur](https://www.cse.iitk.ac.in/), where I was advised by [Prof. Rajat Mittal](https://www.cse.iitk.ac.in/users/rmittal/), and I completed my undergrad at the [LNM Institute of Information Technology](https://www.lnmiit.ac.in/).
+
+Prior to working in theoretical computer science, I was really into working with memory safe languages, such as [Rust](https://www.rust-lang.org/), and even contributed to [Servo](https://servo.org/), an experimental web engine written using Rust.
+
+**Email:** nshagri at umich dot edu
+
+**Twitter:** [nikhilshagri](https:twitter.com/nikhilshagri)
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
