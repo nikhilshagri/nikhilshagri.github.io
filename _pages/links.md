@@ -23,3 +23,5 @@ Organize your courses by years, topics, or universities, however you like! -->
 **Natural Proofs Barrier:** Check out Gowers' [post](https://gowers.wordpress.com/2013/10/03/how-not-to-prove-that-p-is-not-equal-to-np/) for an excellent informal introduction to the natural proofs barrier.
 
 **Reflections on Trusting Trust:** Ken Thompson's Turing award acceptance [speech](https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf), where he talks about how it is possible to produce bugged compiler binaries (which pass all source code verification checks) that deliberately 'self-perputuate' the bugs within them.
+
+**Intro to HDXs:**  Ryan O'Donnell's [video](https://youtu.be/DYmM3xJOS-g) gives a nice introduction to High Dimensional Expanders.
