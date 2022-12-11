@@ -2,12 +2,13 @@
 layout: about
 title: about
 permalink: /
-description: # Hi! I'm a PhD student in Computer Science, at the <a href="#">University of Michigan, Ann Arbor</a>.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: 
+  image_circular: false # crops the image to make it circular
+  address:
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
