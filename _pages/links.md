@@ -25,3 +25,5 @@ Organize your courses by years, topics, or universities, however you like! -->
 **Reflections on Trusting Trust:** Ken Thompson's Turing award acceptance [speech](https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf), where he talks about how it is possible to produce bugged compiler binaries (which pass all source code verification checks) that deliberately 'self-perputuate' the bugs within them.
 
 **Intro to HDXs:**  Ryan O'Donnell's [video](https://youtu.be/DYmM3xJOS-g) gives a nice introduction to High Dimensional Expanders.
+
+**On the Nature of Mathematical Proofs:** Andrew Granville in this [paper](https://mxphi.com/wp-content/uploads/2023/07/Granville.pdf) goes in to what is accepted to be the definition of a mathematical proof and how it has evolved over the centuries.
