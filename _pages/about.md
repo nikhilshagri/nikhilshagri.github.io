@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a third year Computer Science PhD student at the [University of Michigan, Ann Arbor](https://cse.engin.umich.edu/), advised by [Prof. Mahdi Cheraghchi](https://mahdi.ch/). I am mostly interested in topics in theoretical computer science. Specifically, I'm interested in computational complexity, coding theory, and the analysis of Boolean functions.
+Hi! I'm a third year Computer Science PhD student at the [University of Michigan, Ann Arbor](https://cse.engin.umich.edu/), advised by [Prof. Mahdi Cheraghchi](https://mahdi.ch/). I am mostly interested in topics in theoretical computer science. Specifically, I'm interested in Computational Complexity, Coding Theory, and the analysis of Boolean Functions.
 
 Previously, I completed a masters at [IIT Kanpur](https://www.cse.iitk.ac.in/), where I was advised by [Prof. Rajat Mittal](https://www.cse.iitk.ac.in/users/rmittal/), and I completed my undergrad at the [LNM Institute of Information Technology](https://www.lnmiit.ac.in/).
 
@@ -28,7 +28,7 @@ Prior to working in theoretical computer science, I was really into working with
 
 ## Publications 
 
-**Local Properties of Reed-Solomon Codes and Random Linear Codes** [[arxiv](https://arxiv.org/abs/2406.02238)]\\
+- **Local Properties of Reed-Solomon Codes and Random Linear Codes** [[arxiv](https://arxiv.org/abs/2406.02238)]\\
  with Matan Levi and [Jonathan Mosheiff](https://mosheiff.carrd.co/).
 
 

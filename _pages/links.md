@@ -6,10 +6,6 @@ description: Links to interesting computer science/math stuff, for when you're b
 nav: true
 ---
 
-<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like! -->
-
 **Moser's Entropy compression argument:** Terry Tao has a really good [blog post](https://terrytao.wordpress.com/2009/08/05/mosers-entropy-compression-argument/) explaining Moser's constructive algorithm for the Lovasz Local Lemma.
 
 **Existence of a prime between n, 2n:** Also known as the [Bertrand–Chebyshev theorem](https://en.wikipedia.org/wiki/Bertrand%27s_postulate), this fact is often invoked when we want to work with finite fields which are just slightly larger than *n*. Erdös gave an [elementary proof](https://www3.nd.edu/~dgalvin1/pdf/bertrand.pdf) for this in 1932.
@@ -27,3 +23,5 @@ Organize your courses by years, topics, or universities, however you like! -->
 **Intro to HDXs:**  Ryan O'Donnell's [video](https://youtu.be/DYmM3xJOS-g) gives a nice introduction to High Dimensional Expanders.
 
 **On the Nature of Mathematical Proofs:** Andrew Granville in this [paper](https://mxphi.com/wp-content/uploads/2023/07/Granville.pdf) goes in to what is accepted to be the definition of a mathematical proof and how it has evolved over the centuries.
+
+**Michel Talagrand's (short) Autobiography:** This [biography](https://michel.talagrand.net/BioAbel.pdf) (just over 20 pages) contains lots of entertaining anecdotes and also a few bits of useful advice for research in math.
