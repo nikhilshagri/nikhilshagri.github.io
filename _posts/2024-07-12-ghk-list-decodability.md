@@ -47,7 +47,7 @@ Upon denoting $$\epsilon = 1/(L+1)$$, we get that a random code of rate at most
 \\[
     1-h(\rho)-\epsilon
 \\]
-is list-decdoable with list size $$L+1 = O(1/\epsilon)$$, which is what we wanted to
+is list-decodable with list size $$L = O(1/\epsilon)$$, which is what we wanted to
 prove.
 
 For linear codes, a probabilistic proof similar to the one used for the
