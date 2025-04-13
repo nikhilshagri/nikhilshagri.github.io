@@ -10,9 +10,9 @@ categories: coding-theory exposition
 ## Introduction
 List-decodability (at least the combinatorial aspect of it) is
 concerned with producing codes where only a few codewords fall within any
-given Hamming ball of small radius. A code $$\calC \subseteq \F_2^n$$ is
+given Hamming ball of small radius. A code $$\mathcal{C} \subseteq \mathbb{F}_2^n$$ is
 said to be list-decodable with list size $$L$$ and radius  $$\rho$$ if at
-most $$L$$ codewords lie within every Hamming Ball in $$\F_2^n$$ of radius
+most $$L$$ codewords lie within every Hamming Ball in $$\mathbb{F}_2^n$$ of radius
 $$\rho \cdot n$$. A natural question to ask about list-decodable codes is: for a
 fixed (normalized) radius $$\rho$$ and list size $$L$$, what is the maximum rate that a
 $$(\rho, L)$$ list-decodable code can have? A simple computation proves that
@@ -28,16 +28,16 @@ small $$\epsilon > 0$$, a random code having rate
 \\]
 is list-decodable with list size $$O(1/\epsilon)$$, with high probability. A
 proof sketch for this result is as follows: pick a random code of rate $$r$$
-by independently choosing $$2^{rn}$$ vectors uniformly from $$\F_2^n$$. For
+by independently choosing $$2^{rn}$$ vectors uniformly from $$\mathbb{F}_2^n$$. For
 some fixed set of $$L+1$$ vectors, the probability that all vectors from 
 this fixed set are simultaneously contained in the random code is at most 
 \\[
     \left(\frac{2^{rn}}{2^n}\right)^{L+1}.
 \\]
-Moreover, for a fixed Hamming ball centered at some vector $$y \in \F_2^n$$, 
+Moreover, for a fixed Hamming ball centered at some vector $$y \in \mathbb{F}_2^n$$, 
 there are at most $$(2^{h(\rho)n})^{L+1}$$ "bad sets" that the 
 random code must avoid containing. Lastly, there are $$2^n$$ Hamming balls in
-total, centered around each of the $$2^n$$ vectors in $$\F_2^n$$. Therefore, 
+total, centered around each of the $$2^n$$ vectors in $$\mathbb{F}_2^n$$. Therefore, 
 we require:
 \\[
     2^n \cdot (2^{h(\rho)n})^{L+1} \cdot \left(\frac{2^{rn}}{2^n}\right)^{L+1} < 1.
@@ -62,7 +62,7 @@ code, we can simply multiply the probabilities of a random codeword equaling
 some fixed vector. However, this is not possible with a random linear code, because
 the codewords are not linearly independent. (In fact, they are not even 3-wise
 independent, because if $$X_1$$ and $$X_2$$ are two codewords from a linear
-code $$\calC$$, then we know that $$X_1 + X_2$$ also belongs to $$\calC$$.) But
+code $$\mathcal{C}$$, then we know that $$X_1 + X_2$$ also belongs to $$\mathcal{C}$$.) But
 we can still use a weaker property: every set of $$L+1$$ vectors has a linearly
 independent subset of size at least $$\log(L+1)$$, and a necessary condition
 for all $$L+1$$ points to lie within a Hamming ball is for the linearly
@@ -91,7 +91,7 @@ makes use of a clever little structural theorem concerning the intersection of
 linear subspaces and Hamming balls, and is particularly interesting. The 
 statement of the structural theorem is
 
-> If $$X_1, \ldots, X_\ell \in \F_2^n$$ are vectors sampled independently and
+> If $$X_1, \ldots, X_\ell \in \mathbb{F}_2^n$$ are vectors sampled independently and
   uniformly from a Hamming ball of radius $$\rho$$, then the probability that
   more than $$C\ell$$ vectors from the span of $$X_1, \ldots, X_\ell$$ also lie
   in the Hamming ball is exponentially small (it is at most $$2^{-5n}$$).
@@ -102,22 +102,23 @@ structural theorem itself.
 
 ## Identifying problematic cases
 Recall that the overall goal is to show that
-for a random linear code $$\calC$$ of rate $$1-h(\rho)-\epsilon$$ and for
+for a random linear code $$\mathcal{C}$$ of rate $$1-h(\rho)-\epsilon$$ and for
 list size $$L=10/\epsilon$$, the probability of any bad event happening is
 very low. That is, the quantity:
 \\[
-    \Pr_{\calC}[ \exists x \in \F_2^n, |B_n(x, \rho) \cap \calC| \geq L+1]
+    \Pr_{\mathcal{C}}[ \exists x \in \mathbb{F}_2^n, |B_n(x, \rho) \cap \mathcal{C}| \geq L+1]
 \\]
+
 should be very small, where $$B_n(x, \rho)$$ is the set of all vectors
 which have Hamming distance at most $$\rho n$$ from $$x$$). Glossing over
 some minor technical details, it suffices to show that
 \\[
-    \Pr_{\calC}[|B_n(0^n, \rho) \cap \calC| \geq L+1] < 2^{-\lambda n}
+    \Pr_{\mathcal{C}}[|B_n(0^n, \rho) \cap \mathcal{C}| \geq L+1] < 2^{-\lambda n}
 \\]
 for some positive constant $$\lambda$$. That is, it is enough to show that the
 probability of a random linear code having too many codewords around the
 *origin-centered* Hamming ball is small. The same upper bound will then
-translate for any center $$x \in \F_2^n$$, and so we can apply the union
+translate for any center $$x \in \mathbb{F}_2^n$$, and so we can apply the union
 bound to get an upper bound for the first probability.
 
 Going back to the naive probabilistic proof sketched above, one immediately
@@ -143,7 +144,7 @@ former case is the more problematic one.
 Recall the goal of the probabilistic method: given a collection of mathematical
 objects, use probabilistic techniques to prove that the collection contains at
 least one good mathematical object. (For concreteness, think of the collection
-as the set of all linear subspaces of $$\F_2^n$$, and the good mathematical
+as the set of all linear subspaces of $$\mathbb{F}_2^n$$, and the good mathematical
 object as a linear subspace having good list-decoding properties, when viewing
 the subspace as an error-correcting code.) In the field of random
 (linear) codes, most probabilistic approaches follow one basic template: show
@@ -167,11 +168,11 @@ could allow some bad object to slip through if they are too weak.
 As discussed a couple of sections ago, we will can rework the probability that we 
 want to upper bound as:
 \\[
-    \Pr_{\calC}[|B_n(0^n, \rho) \cap \calC| \geq L+1] \leq \Pr_{\calC}
-     [\calC \text{ contains a bad set from the easy case}] +
+    \Pr_{\mathcal{C}}[|B_n(0^n, \rho) \cap \mathcal{C}| \geq L+1] \leq \Pr_{\mathcal{C}}
+     [\mathcal{C} \text{ contains a bad set from the easy case}] +
 \\]
 \\[
-    \Pr_{\calC}[\calC \text{ contains a bad set from the hard case}]
+    \Pr_{\mathcal{C}}[\mathcal{C} \text{ contains a bad set from the hard case}]
 \\]
 
 We will bound the two probabilities on the right hand side individually. 
@@ -197,7 +198,7 @@ rate $$r$$ simultaneously contains every vector from this bad set is at most
   {L+1}$$, this number is also an upper bound on the number of bad sets in the
   easy case, and so upon union bounding over these easy-case-bad-sets, we get:
 \\[
-    \Pr_{\calC}[\calC \text{ contains a bad set from the easy case}] \leq (2^{h
+    \Pr_{\mathcal{C}}[\mathcal{C} \text{ contains a bad set from the easy case}] \leq (2^{h
      (\rho)n})^{L+1} \cdot \left(\frac{2^{rn}}{2^n}\right)^{L/4} \leq 2^
      {-\lambda n}
 \\] for some positive constant $$\lambda$$. Now onto the hard (and more
@@ -209,25 +210,30 @@ can't use the naive upper bound on the number of hard-case-bad sets. We instead
 have to turn to investigate whether this quantity---the number of hard-case-bad
 sets---is low or not. It turns out that it is indeed low, and this is implied
 by the structural theorem we mentioned above! For any $$\ell$$ such that
-$$\log (L+1) \leq \ell \leq L/4$$, denote $$\calF_\ell$$ to be the number of
+$$\log (L+1) \leq \ell \leq L/4$$, denote $$\mathcal{F}_\ell$$ to be the number of
 hard-case-bad sets where the maximal number of linearly independent vectors is
 exactly $$\ell$$. Then, because the $$C$$ from the structural theorem above
 satisfies $$C<4$$ (take my word for this!), $$L$$ is always greater than
 $$C\ell$$ and so,
-\\[
-    \frac{|\calF_\ell|}{(2^{h(\rho)n})^{\ell}} \leq \Pr_
-     {X_1, \ldots, X_\ell \sim B_n(0, \rho)} [|span(X_1,\ldots,X_\ell) \cap B_n
+
+$$
+    \frac{|\mathcal{F}_\ell|}{(2^{h(\rho)n})^{\ell}} 
+    \leq 
+    \Pr_{X_1, \ldots, X_\ell \sim B_n(0, \rho)} [|span(X_1,\ldots,X_\ell) \cap B_n
      (0^n, \rho)| \geq C \ell].
-\\] According to the theorem, the quantity on the right is at most $$2^
+$$
+
+According to the theorem, the quantity on the right is at most $$2^
   {-5n}$$, and so we get:
 \\[
-    |\calF_\ell| \leq (2^{h(\rho)n})^{\ell} \cdot 2^{-5n}
+    |\mathcal{F}_\ell| \leq (2^{h(\rho)n})^{\ell} \cdot 2^{-5n}
 \\]
+
 which further implies that:
 
 $$\begin{align}
-    \Pr_{\calC}[\calC \text{ contains a bad set from the hard case}] &\leq \sum_
-     {\ell = \log (L+1)}^{L/4} |\calF_\ell| \cdot \left(\frac{2^{rn}}
+    \Pr_{\mathcal{C}}[\mathcal{C} \text{ contains a bad set from the hard case}] &\leq \sum_
+     {\ell = \log (L+1)}^{L/4} |\mathcal{F}_\ell| \cdot \left(\frac{2^{rn}}
      {2^n}\right)^{\ell} \\
      &\leq 2^{-5n} \sum_{\ell = \log (L+1)}^{L/4} 2^{(h(\rho)+r-1)n\ell}
 \end{align}$$
@@ -244,7 +250,7 @@ The term inside the summation is maximum when $$\ell=\log (L+1)$$, and there are
 at most $$L/4$$ terms in the summation, and so we get:
 
 $$\begin{align}
-    \Pr_{\calC}[\calC \text{ contains a bad set from the hard case}] &\leq 2^
+    \Pr_{\mathcal{C}}[\mathcal{C} \text{ contains a bad set from the hard case}] &\leq 2^
      {-5n} \cdot \frac{L}{4} \cdot 2^{-\epsilon n\log (L+1)} \\
             &\leq 2^{-5n}.
 \end{align}$$
@@ -255,7 +261,7 @@ The only thing left is to prove the structural theorem.
 Here's the statement of the structural
 theorem once more, so that you don't have to scroll up to see it:
 
-> If $$X_1, \ldots, X_\ell \in \F_2^n$$ are vectors sampled independently and
+> If $$X_1, \ldots, X_\ell \in \mathbb{F}_2^n$$ are vectors sampled independently and
   uniformly from a Hamming ball of radius $$\rho$$, then the probability that
   more than $$C\ell$$ vectors from the span of $$X_1, \ldots, X_\ell$$ also lie
   in the Hamming ball is exponentially small (it is at most $$2^{-5n}$$).
@@ -266,23 +272,23 @@ this subspace does not intersect too much with the Hamming ball.
 
 Denoting $$L := C\ell$$, the proof is basically a union bound over some bad
 events. To describe these bad events, we need to first describe the set of all
-possible linear combinations of any $$\ell$$ vectors from $$\F_2^n$$. This is
-easy: every $$u \in \F_2^\ell$$ will correspond to the following linear
+possible linear combinations of any $$\ell$$ vectors from $$\mathbb{F}_2^n$$. This is
+easy: every $$u \in \mathbb{F}_2^\ell$$ will correspond to the following linear
 combination:
 \\[
     \sum_{i \in \ell} u(i) \cdot X_i
 \\] where $$u(i)$$ denotes the $$i$$th entry of $$u$$. Now for every subset
-  $$S \subset \F_2^{\ell}$$ of size exactly $$L+1$$, a bad event is one where
+  $$S \subset \mathbb{F}_2^{\ell}$$ of size exactly $$L+1$$, a bad event is one where
   every vector described by the linear combinations corresponding to all
   vectors from the tuple falls into the Hamming ball. That is, the following
   event is bad:
 \\[
 \forall u \in S \quad \sum_{i \in \ell} u(i) \cdot X_i \in B_n(0^n, \rho).
 \\] There are $${2^{\ell} \choose L+1}$$ bad events, one for each $$L+1$$ sized
-  subset of vectors from $$\F_2^\ell$$, and so the only thing that's left
+  subset of vectors from $$\mathbb{F}_2^\ell$$, and so the only thing that's left
   before we can apply the union bound is to estimate a good upper bound on the
   probability of each bad event. In pursuit of upper bounding the probability,
-  we will choose to, for every $$L+1$$-sized subset $$S$$ of $$\F_2^
+  we will choose to, for every $$L+1$$-sized subset $$S$$ of $$\mathbb{F}_2^
   {\ell}$$, only focus on a special subset $$T \subset S$$ of linear
   combinations. This special subset of vectors will have an ordering, and will
   have the property that for each vector $$u_i \in T$$, there are at least two
@@ -294,7 +300,7 @@ combination:
 > (*Sum of two random vectors from zero-centered Hamming ball doesn't fall into
   any fixed Hamming ball w.h.p.*): Let $$X_1$$ and $$X_2$$ be two vectors
   sampled independently from one another and uniformly at random from $$B_n
-  (0,\rho)$$. Then for **any** $$y \in \F_2^n$$, the probability that
+  (0,\rho)$$. Then for **any** $$y \in \mathbb{F}_2^n$$, the probability that
   $$X_1+X_2$$ falls within $$B_n(y, \rho)$$ is very low. In particular, it is
   at most $$2^{-\delta n}$$, where $$\delta>0$$ is some small constant.
 
@@ -333,7 +339,7 @@ This further allows us to rewrite that probability corresponding to $$u_j$$ abov
 \\]
 Now because $$X_{i_1}$$ and $$X_{i_2}$$ are independent of the conditioning in the probability, the neat result is applicable and hence this probability is at most $$2^{-\delta n}$$, and so the product of probabilities is at most $$2^{-\delta n |T|}$$.
 
-This was the probability of a single bad event occurring. Recall that there were $${2^{\ell} \choose L+1}$$ bad events, one for each $$L+1$$ sized subset of vectors from $$\F_2^\ell$$. Now $$|T|$$ is large enough so that $$2^{-\delta n |T|}$$ is small enough, and this in turn ensures that:
+This was the probability of a single bad event occurring. Recall that there were $${2^{\ell} \choose L+1}$$ bad events, one for each $$L+1$$ sized subset of vectors from $$\mathbb{F}_2^\ell$$. Now $$|T|$$ is large enough so that $$2^{-\delta n |T|}$$ is small enough, and this in turn ensures that:
 \\[
     2^{-\delta n |T|} \cdot {2^{\ell} \choose L+1} \leq 2^{-5n}.
 \\]
