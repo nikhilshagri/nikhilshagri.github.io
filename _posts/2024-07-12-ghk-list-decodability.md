@@ -10,7 +10,7 @@ categories: coding-theory exposition
 ## Introduction
 List-decodability (at least the combinatorial aspect of it) is
 concerned with producing codes where only a few codewords fall within any
-given Hamming ball of small radius. A code $$\mathcal{C} \subseteq \mathbb{F}_2^n$$ is
+given Hamming ball of small radius. A code $$\calC \subseteq \mathbb{F}_2^n$$ is
 said to be list-decodable with list size $$L$$ and radius  $$\rho$$ if at
 most $$L$$ codewords lie within every Hamming Ball in $$\mathbb{F}_2^n$$ of radius
 $$\rho \cdot n$$. A natural question to ask about list-decodable codes is: for a

@@ -5,6 +5,11 @@ window.MathJax = {
       ["$", "$"],
       ["\\(", "\\)"],
     ],
+    macros: {
+      F: "{\\mathbb{F}}",
+      calC: "{\\mathcal{C}}",
+      calF: "{\\mathcal{F}}"
+    },
   },
   options: {
     renderActions: {

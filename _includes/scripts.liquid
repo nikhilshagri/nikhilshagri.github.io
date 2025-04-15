@@ -197,28 +197,6 @@
 
 {% if site.enable_math %}
   <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      },
-      packages: ['base'],        // extensions to use
-      inlineMath: [              // start/end delimiter pairs for in-line math
-        ['\\(','\\)']
-      ],
-      displayMath: [             // start/end delimiter pairs for display math
-        ['\[', '\]'],
-        ['\\{', '\\}']
-      ],
-      tex: {
-        macros: {
-          F: "{\\mathbb{F}}",
-          calC: "{\\mathcal{C}}",
-          calF: "{\\mathcal{F}}"
-        }
-      }
-    };
-  </script>
   <script
     defer
     type="text/javascript"
