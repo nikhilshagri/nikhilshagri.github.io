@@ -39,10 +39,13 @@ Prior to working in theoretical computer science, I was really into working with
  with [Yeyuan Chen](https://yeyuanch.github.io/) and [Mahdi Cheraghchi](https://mahdi.ch/).
 
 - **Near-Optimal List-Recovery of Linear Code Families** [[arxiv](https://arxiv.org/abs/2502.13877)]\\
- with [Ray Li](https://theory.stanford.edu/~rayyli/).
+ with [Ray Li](https://theory.stanford.edu/~rayyli/).\\
+ *RANDOM '25*
 
 - **Reductions Between Code Equivalence Problems** [[arxiv](https://arxiv.org/abs/2502.07916)]\\
- with [Mahdi Cheraghchi](https://mahdi.ch/) and [Alexandra Veliche](https://web.eecs.umich.edu/~aveliche/).
+ with [Mahdi Cheraghchi](https://mahdi.ch/) and [Alexandra Veliche](https://web.eecs.umich.edu/~aveliche/).\\
+ *ISIT '25*
 
 - **Random Reed-Solomon Codes and Random Linear Codes are Locally Equivalent** [[arxiv](https://arxiv.org/abs/2406.02238)]\\
- with Matan Levi and [Jonathan Mosheiff](https://mosheiff.carrd.co/).
+ with Matan Levi and [Jonathan Mosheiff](https://mosheiff.carrd.co/).\\
+ *FOCS '25*
