@@ -35,6 +35,9 @@ Prior to working in theoretical computer science, I was really into working with
 
 ## Publications 
 
+- **Probabilistic Guarantees to Explicit Constructions: Local Properties of Linear Codes** [[arxiv](https://arxiv.org/abs/2510.06185)]\\
+ with [Fernando Granha Jeronimo](https://granha.github.io).
+
 - **Optimal Erasure Codes and Codes on Graphs** [[arxiv](https://arxiv.org/abs/2504.03090)]\\
  with [Yeyuan Chen](https://yeyuanch.github.io/) and [Mahdi Cheraghchi](https://mahdi.ch/).
 
