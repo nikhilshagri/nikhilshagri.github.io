@@ -26,3 +26,5 @@ nav_order: 2
 **On the Nature of Mathematical Proofs:** Andrew Granville in this [paper](https://mxphi.com/wp-content/uploads/2023/07/Granville.pdf) goes in to what is accepted to be the definition of a mathematical proof and how it has evolved over the centuries.
 
 **Michel Talagrand's (short) Autobiography:** This [biography](https://michel.talagrand.net/BioAbel.pdf) (just over 20 pages) contains lots of entertaining anecdotes and also a few bits of useful advice for research in math.
+
+**What math means to me:** Larry Guth's [essay](https://arxiv.org/pdf/2609.32028) on his views on math, and what math research looks like.

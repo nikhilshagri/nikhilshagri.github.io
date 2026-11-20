@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm a fifth year Computer Science PhD student at the [University of Michigan, Ann Arbor](https://cse.engin.umich.edu/), advised by [Prof. Mahdi Cheraghchi](https://mahdi.ch/). I am mostly interested in topics in theoretical computer science. Specifically, I'm interested in Computational Complexity, Coding Theory, and the analysis of Boolean Functions.
+Hi! I'm a recent PhD graduate in Computer Science from the [University of Michigan, Ann Arbor](https://cse.engin.umich.edu/), where I was advised by [Prof. Mahdi Cheraghchi](https://mahdi.ch/). I am mostly interested in topics in theoretical computer science. Specifically, I'm interested in computational complexity, coding theory, and quantum computing.
 
 Previously, I completed a masters at [IIT Kanpur](https://www.cse.iitk.ac.in/), where I was advised by [Prof. Rajat Mittal](https://www.cse.iitk.ac.in/users/rmittal/), and I completed my undergrad at the [LNM Institute of Information Technology](https://www.lnmiit.ac.in/).
 
@@ -34,13 +34,19 @@ Prior to working in theoretical computer science, I was really into working with
 **Bluesky:** [nikhilshagri.bsky.social](https://bsky.app/profile/nikhilshagri.bsky.social)
 
 ## Publications 
+- **From Random Quantum Codes to Explicit qLDPC Codes via Local Properties** [[arxiv](https://arxiv.org/abs/2609.40252)]\\
+  with [Fernando Granha Jeronimo](https://granha.github.io) and [Xiaojuan Ma](https://sites.google.com/view/xiaojuan-ma/home).
 
-- **Probabilistic Guarantees to Explicit Constructions: Local Properties of Linear Codes** [[arxiv](https://arxiv.org/abs/2510.06185)]\\
+- **Subspace-Design Codes from LCL Derandomization: A Short Note** [[eccc](https://eccc.weizmann.ac.il/report/2026/200/)]\\
+  with [Fernando Granha Jeronimo](https://granha.github.io).
+
+- **Probabilistic Guarantees to Explicit Constructions: Local Properties of Linear Codes** [[arxiv](https://arxiv.org/abs/2510.06185), [eccc](https://eccc.weizmann.ac.il/report/2025/158/)]\\
  with [Fernando Granha Jeronimo](https://granha.github.io).\\
  *STOC '26*
 
 - **Optimal Erasure Codes and Codes on Graphs** [[arxiv](https://arxiv.org/abs/2504.03090)]\\
- with [Yeyuan Chen](https://yeyuanch.github.io/) and [Mahdi Cheraghchi](https://mahdi.ch/).
+ with [Yeyuan Chen](https://yeyuanch.github.io/) and [Mahdi Cheraghchi](https://mahdi.ch/).\\
+ *ITCS '27*
 
 - **Near-Optimal List-Recovery of Linear Code Families** [[arxiv](https://arxiv.org/abs/2502.13877)]\\
  with [Ray Li](https://theory.stanford.edu/~rayyli/).\\
